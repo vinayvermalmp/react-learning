@@ -4,7 +4,7 @@ const Hello = () => {
     // return (
     //     <div class='dummyCalass'>
     //         <h1>Hello Vinay</h1>
-    //     </div>
+    //     </div>   
     // )
 
    // create jsx version of this hello.js belo code return
