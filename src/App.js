@@ -16,12 +16,40 @@ import Inline from './components/Inline';
 import styles from './components/appStyles.module.css'
 import './components/appStyle.css'
 import Form from './components/Form';
+import ParentComp from './components/ParentComp';
+import RefsDemo from './components/RefsDemo';
+import FocusInput from './components/FocusInput';
+import Hero from './components/Hero';
+import ErrorBoundray from './components/ErrorBoundray';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 
 function App() {
   return (
     <div className="App">
 
-        <Form />
+      <ClickCounter name='vinay' />
+      <HoverCounter />
+
+      
+      {/* <ErrorBoundray>
+        <Hero heroname='Batman' />
+      </ErrorBoundray>
+      <ErrorBoundray>
+        <Hero heroname='Superman' />
+        </ErrorBoundray>
+      <ErrorBoundray>
+       <Hero heroname='joker' />
+      </ErrorBoundray> */}
+
+      {/* <FocusInput /> */}
+
+      {/* <RefsDemo /> */}
+
+      {/* <ParentComp /> */}
+
+
+        {/* <Form /> */}
 
 
       

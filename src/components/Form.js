@@ -36,22 +36,25 @@ import React, { Component } from 'react'
     }
 
   render() {
+    
+    const {username, comment, topic} = this.state;
+
     return (
         <form onSubmit={this.handeFormSubmit}>
             <div>
                 <label>Username</label>
-                <input type='text' value={this.state.username}
+                <input type='text' value={username}
                 onChange={this.handleUsernameChange} 
                 placeholder='Enter your name' />
             </div>
             <div>
                 <label>Comment</label>
-                <textarea value={this.state.comment} 
+                <textarea value={comment} 
                 onChange={this.handleCommentChange} ></textarea> 
             </div>
             <div>
                 <label>Topic</label>
-                <select value = {this.state.topic} onChange={this.handleTopicChange}>
+                <select value = {topic} onChange={this.handleTopicChange}>
                     <option value="react">React</option>
                     <option value='angular'>Angular</option>
                     <option value='java'>Java</option>
