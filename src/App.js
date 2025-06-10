@@ -23,13 +23,46 @@ import Hero from './components/Hero';
 import ErrorBoundray from './components/ErrorBoundray';
 import ClickCounter from './components/ClickCounter';
 import HoverCounter from './components/HoverCounter';
+import ClickCounterTwo from './components/ClickCounterTwo';
+import HoverCounterTwo from './components/HoverCounterTwo';
+import Counter2 from './components/Counter2';
+import ComponentC from './components/context/ComponentC';
+import { UserProvider } from './components/context/UserContext';
+import PostList from './components/http/PostList';
+import PostForm from './components/http/PostForm';
 
 function App() {
   return (
     <div className="App">
+      <PostForm></PostForm>
 
-      <ClickCounter name='vinay' />
-      <HoverCounter />
+      {/* <PostList /> */}
+
+      {/* <UserProvider value = "Vinay">
+         <ComponentC />
+      </UserProvider> */}
+
+     
+
+      {/* <Counter2 render={(count, incrementCount) => (
+        <ClickCounterTwo count={count} incrementCount={incrementCount} > 
+
+        </ClickCounterTwo>
+        )} 
+        />
+
+        <Counter2 render={(count, incrementCount) => (
+        <HoverCounterTwo count={count} incrementCount={incrementCount} >
+          </HoverCounterTwo> 
+        )} 
+        /> */}
+
+      {/* <ClickCounterTwo />
+      <HoverCounterTwo /> */}
+
+
+      { /* <ClickCounter name='vinay' />
+      <HoverCounter /> */ }
 
       
       {/* <ErrorBoundray>
