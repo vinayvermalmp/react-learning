@@ -30,11 +30,43 @@ import ComponentC from './components/context/ComponentC';
 import { UserProvider } from './components/context/UserContext';
 import PostList from './components/http/PostList';
 import PostForm from './components/http/PostForm';
+import HookCounter from './components/hooks/HookCounter';
+import HookCounterTwo from './components/hooks/HookCounterTwo';
+import HookCounterThree from './components/hooks/HookCounterThree';
+import HookCounterFour from './components/hooks/HookCounterFour';
+import HookCounterOne from './components/hooks/HookCounterOne';
+import ClassMouse from './components/hooks/ClassMouse';
+import HookMouse from './components/hooks/HookMouse';
+import MouseContainer from './components/hooks/MouseContainer';
+import IntervalClassCounter from './components/hooks/IntervalClassCounter';
+import IntervalHookCounter from './components/hooks/IntervalHookCounter';
 
 function App() {
   return (
     <div className="App">
-      <PostForm></PostForm>
+
+      <IntervalClassCounter />
+      
+      <IntervalHookCounter />
+
+      {/* <MouseContainer /> */}
+
+     {/* <HookMouse /> */}
+
+      {/* <ClassMouse /> */}
+
+      {/* <HookCounterOne /> */}
+
+      
+      {/* <HookCounterFour /> */}
+
+      {/* <HookCounterThree /> */}
+
+      {/* <HookCounterTwo /> */}
+      {/* <HookCounter /> */}
+
+
+      {/* <PostForm></PostForm> */}
 
       {/* <PostList /> */}
 
